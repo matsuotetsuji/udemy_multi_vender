@@ -25,7 +25,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
 
-
         /** @var \Illuminate\Foundation\Application $app */
         // https://stackoverflow.com/questions/75671705/isproduction-method-is-not-detected-in-this-app-isproduction-in-laravel
         $app = $this->app;
